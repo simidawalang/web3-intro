@@ -4,7 +4,6 @@ const solc = require('solc');
 
 const inboxPath = path.resolve(__dirname, 'contracts', 'Inbox.sol');
 const source = fs.readFileSync(inboxPath, 'utf8');
-// utf8 is the encoding used for the file
 
 const input = {
     language: 'Solidity',
